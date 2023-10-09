@@ -1,0 +1,245 @@
+.header_login{
+    display: flex;
+    background-color: red;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+  }
+  .header_login img{
+    padding-left: 24px !important;
+  }
+  .header_login h2{     
+    flex: 1;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 15px;
+  }
+  .main_login
+  {
+    background-image: url(http://wlp.howizbiz.com/static/img/footerLogin.cf032540.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100vh;
+    background-position: bottom;
+  }
+  .DMFrom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+  .from_card{
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    max-width: 450px;
+    box-shadow: rgba(253, 178, 206, 0.47) 0px 2px 20px;
+    width: 30%;
+    display: block;
+  }
+  .fullForm{
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    padding: 24px 16px;
+  }
+  .Done_set{
+    text-align: center;
+  }
+  
+  .radius-button{
+    padding: 0 10px;
+  }
+  .radius-button input{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border:none ;
+    
+  }
+  .radius-button input:focus{
+    outline : 3px solid red;
+    border:none ;
+  }
+  .SetDN{
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .SetDN button{
+    width: 100%;
+    height:50px;
+    color: #fff;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+  }
+  .QuenMK{
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+    color: red;
+  }
+  .error{
+    color: red;
+  }
+  /*css cho phaàn header trang phân loài*/
+  
+.tasbar{
+  display: flex;
+  justify-content: space-between;
+}
+.header_left_one{display: flex;}
+.header_left_one i{
+margin: 20px;
+}
+.header_left_one img{
+  margin-top: 10px;
+}
+.header_left_one h2{
+  margin-top: 10px;
+}
+
+.header_left_two{display: flex;}
+.header_left_two i{
+margin: 20px;
+}
+.header_left_two img{
+  margin-top: 10px;
+}
+.header_left_two h5{
+  margin-top: 20px;
+}
+
+.header_left_three{display: flex;}
+.header_left_three i{
+margin: 20px;
+}
+.header_left_three img{
+  margin-top: 10px;
+}
+.header_left_three h5{
+  margin-top: 20px;
+}
+
+
+.header_right{
+  display: flex;
+  margin: 20px;
+}
+.avatar_loai{
+  display: flex;
+}
+.avatar_loai button{
+  border-radius: 50%;
+  background-color: #b0dac5;
+  border: none;
+  height: 35px;
+  min-width: 35px;
+  width: 35px;
+}
+.avatar_loai button i{
+  color: #da2a1c;
+}
+.button_slot{
+  border-radius: 50%;
+  width:36px;
+  height:36px;
+  color: white;
+  background-color: rgb(0, 137, 123);
+  border: none;
+  margin-right: 10px;
+}
+.avatar_loai h3{
+  padding-left: 8px !important;
+}
+.tableLoai{
+  width: 100%;
+}
+.CallTable{
+  margin: 10px 0;
+}
+.col-sm-2{
+  font-size: 13px;
+  display: flex;
+}
+.col-sm{
+  font-size: 13px;
+}
+.card-img-top{
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  min-width: 40px;
+}
+hr{
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  /* CSS cho màn hình điện thoại di động */
+  .sidebar_content{
+    display: none;
+  }
+  .header_left_one{
+    display: none;
+  }
+  .header_left_two{
+    display: none;
+  }
+  .input-search{
+    height: 36px;
+    width: 200px;
+    margin-right: 30px;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header_left_one{
+    display: none;
+  }
+  .header_left_three{
+    display: none;
+  }
+  .header_login{
+    display: none;
+  }
+  .main_login{
+    background-image:none;
+  }
+  .from_card{
+    width: 100%;
+    height: 100%;
+  }
+  .sidebar_content{
+    display: none;
+  }
+  .main_table{
+    width: 100%;
+  }
+  .input-search{
+    height: 36px;
+    width: 800px;
+    margin-right: 30px;
+  }
+  
+}
+
+@media screen and (min-width: 1025px) {
+    .header_left_two{
+    display: none;
+  }
+  .header_left_three{
+    display: none;
+  }
+  .input-search{
+    height: 36px;
+    width: 800px;
+    margin-right: 30px;
+  }
+}
